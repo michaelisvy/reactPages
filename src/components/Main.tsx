@@ -8,7 +8,7 @@ import { ClimateFresk } from "./index.ts";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/reactPages/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
