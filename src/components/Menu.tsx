@@ -7,10 +7,10 @@ export const Menu = () => {
     <AppBar position="static">
       <Toolbar  className="toolBar">
         
-        <Button component={Link} to="/reactPages/sessions" color="inherit">
+        <Button component={Link} to="/sessions" color="inherit">
           Schedule
         </Button>
-        <Button component={Link} to="/reactPages/climateFresk" color="inherit">
+        <Button component={Link} to="/climateFresk" color="inherit">
           Workshops
         </Button>
       </Toolbar>
