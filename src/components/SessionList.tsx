@@ -34,10 +34,10 @@ export const SessionList = () => {
         <Table stickyHeader aria-label="sticky table">
           <TableHead>
             <TableRow>
-              <TableCell>Date </TableCell>
+              <TableCell>Date</TableCell>
               <TableCell>Session Type</TableCell>
               <TableCell>Host</TableCell>
-              <TableCell>Registration</TableCell> {/* Column for the button */}
+              <TableCell>Registration</TableCell>
             </TableRow>
           </TableHead>
           <TableBody>

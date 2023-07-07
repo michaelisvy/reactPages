@@ -2,27 +2,27 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { App } from "./App.tsx";
 import "../styles/Main.css";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createHashRouter } from "react-router-dom";
 import { SessionList, SessionDetail, ErrorPage } from "./index.ts";
 import { ClimateFresk } from "./index.ts";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/reactPages/",
+    path: "/",
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
       {
-        path: "sessions",
+        path: "reactPages/sessions",
         element: <SessionList />,
       },
       {
-        path: "sessions/:sessionId",
+        path: "reactPages/sessions/:sessionId",
         element: <SessionDetail />,
       },
 
       {
-        path: "climateFresk",
+        path: "reactPages/climateFresk",
         element: <ClimateFresk />,
       },
     ],
