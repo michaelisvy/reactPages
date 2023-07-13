@@ -31,7 +31,7 @@ const sessionList: Session[] = [
     id: 5,
     date: "19 August 2023 (Saturday)",
     sessionType: "Climate Fresk",
-    host: "	Palo IT",
+    host: "Palo IT - Beach Road",
     url: "https://association.climatefresk.org/session_invitations/89e74481-fa04-44ee-a8ee-9cd8c52ee02e",
   },
   {
@@ -71,31 +71,31 @@ const sessionList: Session[] = [
   },
   {
     id: 11,
+    date: "16 September 2023 (Monday evening)",
+    sessionType: "Climate Fresk",
+    host: "Palo IT - Beach Road",
+    url: "https://association.climatefresk.org/training_sessions/faf75f94-eda1-4638-bd29-1ed06219143c/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+  },
+  {
+    id: 12,
     date: "19 September 2023 (Tuesday evening)",
     sessionType: "Climate Fresk",
     host: "	NVPC - Clarke Quay central",
     url: "https://association.climatefresk.org/training_sessions/4b3c5b80-db6c-4d2b-9c8b-e93155bec78a/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
   {
-    id: 12,
+    id: 13,
     date: "25 September 2023 (Monday evening)",
     sessionType: "Climate Fresk",
     host: "	Online",
     url: "https://association.climatefresk.org/training_sessions/39abc77b-2379-4dc1-a9c7-6a08f015753c/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
   {
-    id: 13,
+    id: 14,
     date: "25 September 2023 (Monday evening)",
     sessionType: "Climate Fresk Training",
     host: "	Online",
     url: "https://association.climatefresk.org/training_sessions/1f5b567c-def5-437d-8ef8-ef333c1cfa66/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-  {
-    id: 14,
-    date: "05 October 2023 (Monday evening)",
-    sessionType: "Climate Fresk",
-    host: "Babilou Family - Alexandra Rd",
-    url: "https://association.climatefresk.org/training_sessions/7fca2fc7-8831-435b-ba56-d43b83c33fae/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
   {
     id: 15,
@@ -104,7 +104,14 @@ const sessionList: Session[] = [
     host: "L'Oréal Offices - One Raffles Quay",
     url: "https://www.eventbrite.com/e/biodiversity-collage-loreal-singapore-tickets-658117395847?aff=oddtdtcreator",
   },
- 
+  {
+    id: 16,
+    date: "05 October 2023 (Monday evening)",
+    sessionType: "Climate Fresk",
+    host: "Babilou Family - Alexandra Rd",
+    url: "https://association.climatefresk.org/training_sessions/7fca2fc7-8831-435b-ba56-d43b83c33fae/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+  },
+  
 ];
 
 export function getSessionList() {
