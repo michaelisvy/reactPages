@@ -118,7 +118,27 @@ const sessionList: Session[] = [
     host: "Babilou Family - Alexandra Rd",
     url: "https://association.climatefresk.org/training_sessions/7fca2fc7-8831-435b-ba56-d43b83c33fae/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
-  
+  {
+    id: 18,
+    date: "22 August 2023 (Tuesday evening)",
+    sessionType: "2tonnes",
+    host: "Chemistry Office - Bugis",
+    url: "https://www.eventbrite.sg/e/2tonnes-workshop-chemistry-singapore-tickets-559180803837",
+  },
+  {
+    id: 19,
+    date: "19 September 2023 (Tuesday evening)",
+    sessionType: "2tonnes",
+    host: "Chemistry Office - Bugis",
+    url: "https://www.eventbrite.sg/e/2tonnes-workshop-chemistry-singapore-tickets-559180803837",
+  },
+  {
+    id: 20,
+    date: "17 October 2023 (Tuesday evening)",
+    sessionType: "2tonnes",
+    host: "Chemistry Office - Bugis",
+    url: "https://www.eventbrite.sg/e/2tonnes-workshop-chemistry-singapore-tickets-559180803837",
+ },
 ];
 
 export function getSessionList() {
