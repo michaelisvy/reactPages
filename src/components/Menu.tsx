@@ -5,8 +5,7 @@ import { AppBar, Toolbar, Button } from "@mui/material";
 export const Menu = () => {
   return (
     <AppBar position="static">
-      <Toolbar  className="toolBar">
-        
+      <Toolbar  className="toolBar">       
         <Button component={Link} to="/reactPages/sessions" color="inherit">
           Schedule
         </Button>
