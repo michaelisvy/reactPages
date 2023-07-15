@@ -13,6 +13,9 @@ export const Menu = () => {
         <Button component={Link} to="/reactPages/climateFresk" color="inherit">
           Workshops
         </Button>
+        <Button component={Link} to="/reactPages/facilitating" color="inherit">
+          Facilitating
+        </Button>
       </Toolbar>
     </AppBar>
   );
