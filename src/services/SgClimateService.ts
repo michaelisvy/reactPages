@@ -1,26 +1,5 @@
 const sessionList: Session[] = [
   {
-    id: 1,
-    date: "24 July 2023 (Monday evening)",
-    sessionType: "Climate Fresk Training",
-    host: "Online",
-    url: "https://association.climatefresk.org/training_sessions/aaa9392c-5617-4f08-b11b-588a16930482/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-  {
-    id: 2,
-    date: "24 July 2023 (Monday evening)",
-    sessionType: "Climate Fresk",
-    host: "Online",
-    url: "https://association.climatefresk.org/training_sessions/aaa9392c-5617-4f08-b11b-588a16930482/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-  {
-    id: 3,
-    date: "25 July 2023 (Tuesday evening)",
-    sessionType: "Digital Collage Training",
-    host: "Online",
-    url: "https://association.climatefresk.org/training_sessions/bf7bb6c1-3ef5-426d-99ca-c95bcc807d75/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-  {
     id: 4,
     date: "21 August 2023 (Monday evening)",
     sessionType: "Climate Fresk Training",
