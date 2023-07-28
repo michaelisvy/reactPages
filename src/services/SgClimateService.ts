@@ -1,19 +1,19 @@
 const sessionList: Session[] = [
   {
     id: 4,
-    date: "21 August 2023 (Monday evening)",
-    sessionType: "Climate Fresk Training",
-    host: "Genius Central Telok Ayer",
-    url: "https://association.climatefresk.org/training_sessions/bf7bb6c1-3ef5-426d-99ca-c95bcc807d75/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-   {
-    id: 5,
     date: "19 August 2023 (Saturday)",
     sessionType: "Climate Fresk",
     host: "Palo IT - Beach Road",
     url: "https://association.climatefresk.org/session_invitations/89e74481-fa04-44ee-a8ee-9cd8c52ee02e",
   },
-   {
+  {
+    id: 5,
+    date: "21 August 2023 (Monday evening)",
+    sessionType: "Climate Fresk Training",
+    host: "Genius Central Telok Ayer",
+    url: "https://association.climatefresk.org/training_sessions/bf7bb6c1-3ef5-426d-99ca-c95bcc807d75/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+  },
+  {
     id: 6,
     date: "22 August 2023 (Tuesday evening)",
     sessionType: "2tonnes",
@@ -34,7 +34,7 @@ const sessionList: Session[] = [
     host: "Online",
     url: "https://association.climatefresk.org/training_sessions/53daf159-36f3-4c2f-b759-518901219203/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
-   {
+  {
     id: 9,
     date: "05 September 2023 (Monday evening)",
     sessionType: "Biodiversity Collage",
@@ -62,7 +62,7 @@ const sessionList: Session[] = [
     host: "Palo IT - Beach Road",
     url: "https://association.climatefresk.org/training_sessions/faf75f94-eda1-4638-bd29-1ed06219143c/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
-   {
+  {
     id: 13,
     date: "19 September 2023 (Tuesday evening)",
     sessionType: "2tonnes",
@@ -117,7 +117,7 @@ const sessionList: Session[] = [
     sessionType: "2tonnes",
     host: "Chemistry Office - Bugis",
     url: "https://www.eventbrite.sg/e/2tonnes-workshop-chemistry-singapore-tickets-559180803837",
- },
+  },
 ];
 
 export function getSessionList() {
@@ -125,13 +125,13 @@ export function getSessionList() {
 }
 
 export function getSession(sessionId: number) {
-  return sessionList.find((item) => item.id === sessionId);;
+  return sessionList.find((item) => item.id === sessionId);
 }
 
 export interface Session {
-    id: number;
-    date: string;
-    sessionType: string;
-    host: string;
-    url: string;
-  }
+  id: number;
+  date: string;
+  sessionType: string;
+  host: string;
+  url: string;
+}

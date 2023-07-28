@@ -13,6 +13,9 @@ const router = createHashRouter([
     errorElement: <ErrorPage />,
     children: [
       {
+        path: "",
+        element: <SessionList />,
+      },{
         path: "reactPages/sessions",
         element: <SessionList />,
       },
