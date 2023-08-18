@@ -1,7 +1,7 @@
 const sessionList: Session[] = [
   {
     id: 4,
-    date: "19 August 2023  (Saturday)",
+    date: "19 August 2023 (Saturday)",
     sessionType: "Climate Fresk",
     host: "Palo IT - Beach Road",
     url: "https://association.climatefresk.org/session_invitations/89e74481-fa04-44ee-a8ee-9cd8c52ee02e",
