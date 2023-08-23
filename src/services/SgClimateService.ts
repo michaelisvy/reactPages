@@ -1,33 +1,5 @@
 const sessionList: Session[] = [
   {
-    id: 4,
-    date: "19 August 2023 (Saturday)",
-    sessionType: "Climate Fresk",
-    host: "Palo IT - Beach Road",
-    url: "https://association.climatefresk.org/session_invitations/89e74481-fa04-44ee-a8ee-9cd8c52ee02e",
-  },
-  {
-    id: 5,
-    date: "21 August 2023 (Monday evening)",
-    sessionType: "Climate Fresk Training",
-    host: "Genius Central Telok Ayer",
-    url: "https://association.climatefresk.org/training_sessions/bf7bb6c1-3ef5-426d-99ca-c95bcc807d75/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-  {
-    id: 6,
-    date: "22 August 2023 (Tuesday evening)",
-    sessionType: "2tonnes",
-    host: "Chemistry Office - Bugis",
-    url: "https://www.eventbrite.sg/e/2tonnes-workshop-chemistry-singapore-tickets-559180803837",
-  },
-  {
-    id: 7,
-    date: "28 August 2023 (Monday evening)",
-    sessionType: "Climate Fresk",
-    host: "	Online",
-    url: "https://association.climatefresk.org/training_sessions/48214008-7ee0-4b30-9223-32e7474a890c/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-  {
     id: 8,
     date: "28 August 2023 (Monday evening)",
     sessionType: "Climate Fresk Training",
