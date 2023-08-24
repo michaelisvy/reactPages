@@ -56,6 +56,13 @@ const sessionList: Session[] = [
     url: "https://association.climatefresk.org/training_sessions/4b3c5b80-db6c-4d2b-9c8b-e93155bec78a/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
   {
+    id: 155,
+    date: "23 September 2023 (Saturday morning)",
+    sessionType: "Biodiversity Collage",
+    host: "National Design Center",
+    url: "https://www.eventbrite.sg/e/biodiversity-collage-with-climate-designers-tickets-665801278547",
+  },
+  {
     id: 16,
     date: "25 September 2023 (Monday evening)",
     sessionType: "Climate Fresk",
