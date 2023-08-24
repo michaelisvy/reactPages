@@ -81,14 +81,14 @@ const sessionList: Session[] = [
     date: "27 September 2023 (Monday evening)",
     sessionType: "Digital Collage Training",
     host: "	Online",
-    url: "https://www.billetweb.fr/online-training-english-digital-collage&multi=u84999&view=calendar&margin=no_margin&color=0A99D1&parent=1&session=7065244&calendar=1&from_multi=1",
+    url: "https://www.billetweb.fr/online-training-digital-collage",
   },
   {
     id: 19,
     date: "02 October 2023 (Monday evening)",
     sessionType: "Digital Collage Training",
     host: "Zenika Offices - BS Bendemeer Centre 3/F ",
-    url: "https://www.billetweb.fr/training-english-digital-collage&multi=u84999&view=calendar&margin=no_margin&color=0A99D1&parent=1&session=7065217&calendar=1&from_multi=1",
+    url: "https://www.billetweb.fr/singapore-training-digital-training",
   },
   {
     id: 20,
