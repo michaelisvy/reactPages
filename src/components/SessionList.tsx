@@ -10,9 +10,10 @@ import TableRow from "@mui/material/TableRow";
 import { getSessionList } from "../services/SgClimateService";
 import { Link } from "@mui/material";
 
-const rows = getSessionList();
 
-export const SessionList = () => {
+
+export function SessionList(props: { type: string; }) {
+  const rows = getSessionList(props.type);
   const [page, setPage] = React.useState(0);
   const [rowsPerPage, setRowsPerPage] = React.useState(10);
 

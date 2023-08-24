@@ -1,24 +1,10 @@
-const sessionList: Session[] = [
-  {
-    id: 8,
-    date: "28 August 2023 (Monday evening)",
-    sessionType: "Climate Fresk Training",
-    host: "Online",
-    url: "https://association.climatefresk.org/training_sessions/53daf159-36f3-4c2f-b759-518901219203/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
+const participantSessionList: Session[] = [
   {
     id: 9,
     date: "05 September 2023 (Monday evening)",
     sessionType: "Biodiversity Collage",
     host: "L'Oréal Offices - One Raffles Quay",
     url: "https://www.eventbrite.com/e/biodiversity-collage-loreal-singapore-tickets-658117395847?aff=oddtdtcreator",
-  },
-  {
-    id: 10,
-    date: "11 September 2023 (Monday evening)",
-    sessionType: "Climate Fresk Training",
-    host: "Genius Central Telok Ayer",
-    url: "https://association.climatefresk.org/training_sessions/93578aef-cfe6-478b-9e4b-e64de8c0344d/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
   {
     id: 11,
@@ -70,27 +56,6 @@ const sessionList: Session[] = [
     url: "https://association.climatefresk.org/training_sessions/39abc77b-2379-4dc1-a9c7-6a08f015753c/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
   {
-    id: 17,
-    date: "25 September 2023 (Monday evening)",
-    sessionType: "Climate Fresk Training",
-    host: "	Online",
-    url: "https://association.climatefresk.org/training_sessions/1f5b567c-def5-437d-8ef8-ef333c1cfa66/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-  {
-    id: 18,
-    date: "27 September 2023 (Monday evening)",
-    sessionType: "Digital Collage Training",
-    host: "	Online",
-    url: "https://www.billetweb.fr/online-training-english-digital-collage&multi=u84999&view=calendar&margin=no_margin&color=0A99D1&parent=1&session=7065244&calendar=1&from_multi=1",
-  },
-  {
-    id: 19,
-    date: "02 October 2023 (Monday evening)",
-    sessionType: "Digital Collage Training",
-    host: "Zenika Offices - BS Bendemeer Centre 3/F ",
-    url: "https://www.billetweb.fr/training-english-digital-collage&multi=u84999&view=calendar&margin=no_margin&color=0A99D1&parent=1&session=7065217&calendar=1&from_multi=1",
-  },
-  {
     id: 20,
     date: "03 October 2023 (Tuesday evening)",
     sessionType: "Biodiversity Collage",
@@ -120,12 +85,68 @@ const sessionList: Session[] = [
   },
 ];
 
-export function getSessionList() {
-  return sessionList;
+const instructorSessionList: Session[] = [
+  {
+    id: 8,
+    date: "28 August 2023 (Monday evening)",
+    sessionType: "Climate Fresk Training",
+    host: "Online",
+    url: "https://association.climatefresk.org/training_sessions/53daf159-36f3-4c2f-b759-518901219203/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+  },
+  {
+    id: 10,
+    date: "11 September 2023 (Monday evening)",
+    sessionType: "Climate Fresk Training",
+    host: "Genius Central Telok Ayer",
+    url: "https://association.climatefresk.org/training_sessions/93578aef-cfe6-478b-9e4b-e64de8c0344d/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+  },
+  {
+    id: 17,
+    date: "25 September 2023 (Monday evening)",
+    sessionType: "Climate Fresk Training",
+    host: "	Online",
+    url: "https://association.climatefresk.org/training_sessions/1f5b567c-def5-437d-8ef8-ef333c1cfa66/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+  },
+  {
+    id: 18,
+    date: "27 September 2023 (Monday evening)",
+    sessionType: "Digital Collage Training",
+    host: "	Online",
+    url: "https://www.billetweb.fr/online-training-english-digital-collage&multi=u84999&view=calendar&margin=no_margin&color=0A99D1&parent=1&session=7065244&calendar=1&from_multi=1",
+  },
+  {
+    id: 19,
+    date: "02 October 2023 (Monday evening)",
+    sessionType: "Digital Collage Training",
+    host: "Zenika Offices - BS Bendemeer Centre 3/F ",
+    url: "https://www.billetweb.fr/training-english-digital-collage&multi=u84999&view=calendar&margin=no_margin&color=0A99D1&parent=1&session=7065217&calendar=1&from_multi=1",
+  },
+]
+
+export function getParticipantSessionList() {
+  return participantSessionList;
 }
 
-export function getSession(sessionId: number) {
-  return sessionList.find((item) => item.id === sessionId);
+export function getInstructorSessionList() {
+  return instructorSessionList;
+}
+
+export function getParticipantSession(sessionId: number) {
+  return participantSessionList.find((item) => item.id === sessionId);
+}
+
+export function getSessionList(type: string) {
+  const str2: string = "participant";
+  console.log(type);
+  console.log(str2);
+  console.log(str2.toString() == "participant");
+  if (type.toString() === "participant") {
+    return getParticipantSessionList();
+  } else if (type.toString() === "instructor") {
+    return getInstructorSessionList();
+  } else {
+    throw new Error("unknown type");
+  }
 }
 
 export interface Session {

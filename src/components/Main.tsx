@@ -14,10 +14,10 @@ const router = createHashRouter([
     children: [
       {
         path: "",
-        element: <SessionList />,
+        element: <SessionList type="participant" />,
       },{
         path: "reactPages/sessions",
-        element: <SessionList />,
+        element: <SessionList  type="participant" />,
       },
       {
         path: "reactPages/sessions/:sessionId",

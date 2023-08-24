@@ -14,6 +14,7 @@ import cf1ImagePath from "../images/cf/cf1.jpeg";
 import cf2ImagePath from "../images/cf/cf2.jpeg";
 import cf3ImagePath from "../images/cf/cf3.jpeg";
 import cf4ImagePath from "../images/cf/cf4.jpeg";
+import { SessionList } from ".";
 
 export const Facilitating = () => {
   const [stopAutoplay, setStopAutoplay] = useState(false);
@@ -48,17 +49,7 @@ export const Facilitating = () => {
 
   return (
     <>
-      <Carousel autoPlay={!stopAutoplay} className="carousel">
-        {images.map((image, index) => (
-          <Paper key={index}>
-            <img
-              src={image.imageUrl}
-              alt={image.caption}
-              className="carousel-image"
-            />
-          </Paper>
-        ))}
-      </Carousel>
+      
       <div id="description">
         <h2>Becoming a facilitator</h2>
         Singapore has a growing community of <b>200+ facilitators</b>. Most of
@@ -97,8 +88,20 @@ export const Facilitating = () => {
         You will join the facilitator community and will be able to take part in a number of different events organised by the NGO.
         Facilitation training sessions may happen online or in-person.
         </p>
-        <a href="https://climatefresk.org/world/become-facilitator/" target="_blank">Dates for facilitator sessions are available here</a>
+        <h2>Training sessions for facilitators</h2>
       </div>
+      <SessionList type="instructor"/>
+      <Carousel autoPlay={!stopAutoplay} className="carousel">
+        {images.map((image, index) => (
+          <Paper key={index}>
+            <img
+              src={image.imageUrl}
+              alt={image.caption}
+              className="carousel-image"
+            />
+          </Paper>
+        ))}
+      </Carousel>
     </>
   );
 };

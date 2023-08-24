@@ -1,10 +1,10 @@
 import { useParams } from "react-router";
-import { getSession } from "../services/SgClimateService";
+import { getParticipantSession } from "../services/SgClimateService";
 
 export const SessionDetail = () => {
   let params = useParams();
   const sessionId = parseInt(params.sessionId || "");
-  const session = getSession(sessionId);
+  const session = getParticipantSession(sessionId);
   return (
     <div key={session?.id}>
       {session && (
