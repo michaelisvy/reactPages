@@ -87,13 +87,6 @@ const participantSessionList: Session[] = [
 
 const instructorSessionList: Session[] = [
   {
-    id: 8,
-    date: "28 August 2023 (Monday evening)",
-    sessionType: "Climate Fresk Training",
-    host: "Online",
-    url: "https://association.climatefresk.org/training_sessions/53daf159-36f3-4c2f-b759-518901219203/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-  {
     id: 10,
     date: "11 September 2023 (Monday evening)",
     sessionType: "Climate Fresk Training",

@@ -88,20 +88,18 @@ export const Facilitating = () => {
         You will join the facilitator community and will be able to take part in a number of different events organised by the NGO.
         Facilitation training sessions may happen online or in-person.
         </p>
-        <h2>Training sessions for facilitators</h2>
+        <h2>Certifying sessions for facilitators</h2>
       </div>
       <SessionList type="instructor"/>
-      <Carousel autoPlay={!stopAutoplay} className="carousel">
-        {images.map((image, index) => (
-          <Paper key={index}>
-            <img
-              src={image.imageUrl}
-              alt={image.caption}
-              className="carousel-image"
-            />
-          </Paper>
-        ))}
-      </Carousel>
+      <h2><a href="#white-belt">Practice sessions for White-Belt instructors</a></h2>
+      <p>
+       A lot of our white-belt instructors were shy to start on their first climate fresk session. 
+       In order to ease that gap, we've created some practice sessions for white-belt instructors. 
+       How does it work? Basically you spend 2-3 hours with an experienced facilitator and a few fellow beginning facilitators.
+       As a group, you will learn by doing, practice with some of the Climate Fresk sets, and give and receive feedback. It's fun!
+      </p>
+
+
     </>
   );
 };
