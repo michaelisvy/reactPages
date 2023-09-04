@@ -63,17 +63,15 @@ export const Facilitating = () => {
         <h2>Certifying sessions for facilitators</h2>
         <SessionList type="instructor" />
         <h2>
-          <a href="#white-belt" className="uncoloredLink">Practice sessions for White-Belt instructors</a>
+          Facilitator Practice Sessions
         </h2>
         <img src={karateImagePath} style={{ maxWidth: '50%', maxHeight: '100px' }}/>
         <p>
-          A lot of our white-belt instructors were shy to start on their first
-          climate fresk session. In order to ease that gap, we've created some
-          practice sessions for white-belt instructors. How does it work?
-          Basically you spend 2-3 hours with an experienced facilitator and a
-          few fellow beginning facilitators. As a group, you will learn by
-          doing, practice with some of the Climate Fresk sets, and give and
-          receive feedback. It's fun!
+        The facilitator practice sessions, lasting 2 to 3 hours, provide a supportive and dynamic environment for white and yellow belt Climate Fresk facilitators who may be grappling with a lack of confidence in organizing and leading their initial workshops or wish to enhance their facilitation skills. 
+
+These sessions foster a collaborative atmosphere where participants can freely exchange experiences and insights, both among themselves and with a seasoned facilitator. The flexibility in the session structure allows for tailored responses to specific needs and queries, ensuring that each participant can address their unique challenges. 
+
+Furthermore, these rehearsals incorporate valuable role-playing exercises, enabling participants to hone their facilitation techniques by practicing with a card game set. Through this multifaceted approach, facilitators can build confidence, refine their skills, and collectively contribute to a more effective and engaging Climate Fresk workshop experience.
         </p>
       </div>
     </>
