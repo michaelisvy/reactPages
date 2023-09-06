@@ -1,12 +1,5 @@
 const participantSessionList: Session[] = [
   {
-    id: 9,
-    date: "05 September 2023 (Monday evening)",
-    sessionType: "Biodiversity Collage",
-    host: "L'Oréal Offices - One Raffles Quay",
-    url: "https://www.eventbrite.com/e/biodiversity-collage-loreal-singapore-tickets-658117395847?aff=oddtdtcreator",
-  },
-  {
     id: 11,
     date: "11 September 2023 (Monday evening)",
     sessionType: "Climate Fresk",
@@ -15,14 +8,14 @@ const participantSessionList: Session[] = [
   },
   {
     id: 12,
-    date: "12 September 2023 (Monday evening)",
+    date: "12 September 2023 (Tuesday evening)",
     sessionType: "Digital Collage",
     host: "Viseo - Cecil Street",
     url: "https://www.eventbrite.sg/e/the-digital-collage-workshop-singapore-tickets-396945513717?aff=oddtdtcreator",
   },
   {
     id: 13,
-    date: "16 September 2023 (Monday evening)",
+    date: "16 September 2023 (Saturday)",
     sessionType: "Climate Fresk",
     host: "Palo IT - Beach Road",
     url: "https://association.climatefresk.org/training_sessions/faf75f94-eda1-4638-bd29-1ed06219143c/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
@@ -71,7 +64,7 @@ const participantSessionList: Session[] = [
   },
   {
     id: 22,
-    date: "17 October 2023 (Monday evening)",
+    date: "17 October 2023 (Tuesday evening)",
     sessionType: "Digital Collage",
     host: "Viseo - Cecil Street",
     url: "https://www.eventbrite.sg/e/the-digital-collage-workshop-singapore-tickets-396945513717?aff=oddtdtcreator",
@@ -102,7 +95,7 @@ const instructorSessionList: Session[] = [
   },
   {
     id: 18,
-    date: "27 September 2023 (Monday evening)",
+    date: "27 September 2023 (Wednesday evening)",
     sessionType: "Digital Collage Training",
     host: "	Online",
     url: "https://www.billetweb.fr/online-training-english-digital-collage&multi=u84999&view=calendar&margin=no_margin&color=0A99D1&parent=1&session=7065244&calendar=1&from_multi=1",
