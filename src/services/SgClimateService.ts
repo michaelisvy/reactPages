@@ -1,33 +1,5 @@
 const participantSessionList: Session[] = [
   {
-    id: 15,
-    date: "23 September 2023 (Saturday morning)",
-    sessionType: "Biodiversity Collage",
-    host: "National Design Center",
-    url: "https://www.eventbrite.sg/e/biodiversity-collage-with-climate-designers-tickets-665801278547",
-  },
-  {
-    id: 16,
-    date: "25 September 2023 (Monday evening)",
-    sessionType: "Climate Fresk",
-    host: "	Online",
-    url: "https://association.climatefresk.org/training_sessions/39abc77b-2379-4dc1-a9c7-6a08f015753c/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-  {
-    id: 17,
-    date: "03 October 2023 (Tuesday evening)",
-    sessionType: "Biodiversity Collage",
-    host: "L'Oréal Offices - One Raffles Quay",
-    url: "https://www.eventbrite.com/e/biodiversity-collage-loreal-singapore-tickets-658117395847?aff=oddtdtcreator",
-  },
-  {
-    id: 18,
-    date: "04 October 2023 (Wednesday evening)",
-    sessionType: "Digital Collage",
-    host: "Online",
-    url: "https://www.billetweb.fr/asia-pacific-digital-collage",
-  },
-  {
     id: 19,
     date: "09 October 2023 (Monday evening)",
     sessionType: "Climate Fresk",
