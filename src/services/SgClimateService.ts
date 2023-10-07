@@ -11,7 +11,7 @@ const participantSessionList: Session[] = [
     date: "14 October 2023 (Saturday afternoon)",
     sessionType: "Climate Fresk",
     host: "Palo IT Offices - Beach Rd",
-    url: "https://association.climatefresk.org/training_sessions/7fca2fc7-8831-435b-ba56-d43b83c33fae/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+    url: "https://association.climatefresk.org/training_sessions/3720ac50-c2cb-4180-9b3f-001803910a18/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
   {
     id: 21,
@@ -27,7 +27,7 @@ const participantSessionList: Session[] = [
     host: "Chemistry Office - Bugis",
     url: "https://www.eventbrite.sg/e/2tonnes-workshop-chemistry-singapore-tickets-559180803837",
   },
-   {
+  {
     id: 23,
     date: "24 October 2023 (Tuesday evening)",
     sessionType: "Digital Collage",
@@ -58,27 +58,7 @@ const participantSessionList: Session[] = [
 ];
 
 const instructorSessionList: Session[] = [
-  {
-    id: 27,
-    date: "27 September 2023 (Wednesday evening)",
-    sessionType: "Digital Collage Training",
-    host: "	Online",
-    url: "https://www.billetweb.fr/online-training-english-digital-collage&multi=u84999&view=calendar&margin=no_margin&color=0A99D1&parent=1&session=7065244&calendar=1&from_multi=1",
-  },
-  {
-    id: 28,
-    date: "02 October 2023 (Monday evening)",
-    sessionType: "Digital Collage Training",
-    host: "Zenika Offices - BS Bendemeer Centre 3/F ",
-    url: "https://www.billetweb.fr/training-english-digital-collage&multi=u84999&view=calendar&margin=no_margin&color=0A99D1&parent=1&session=7065217&calendar=1&from_multi=1",
-  },
-  {
-    id: 29,
-    date: "06 November 2023 (Monday evening)",
-    sessionType: "Digital Collage Training",
-    host: "Zenika Offices - BS Bendemeer Centre 3/F",
-    url: "https://www.billetweb.fr/training-asia-pacific-digital-collage",
-  },
+  
    {
     id: 30,
     date: "16 October 2023 (Monday evening)",
@@ -92,6 +72,13 @@ const instructorSessionList: Session[] = [
     sessionType: "Climate Fresk Training",
     host: "Online",
     url: "https://association.climatefresk.org/training_sessions/4eb699df-26b1-4cf9-abf4-a6ed96a1e22e/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+  },
+  {
+    id: 29,
+    date: "06 November 2023 (Monday evening)",
+    sessionType: "Digital Collage Training",
+    host: "Zenika Offices - BS Bendemeer Centre 3/F",
+    url: "https://www.billetweb.fr/training-asia-pacific-digital-collage",
   },
   {
     id: 32,
