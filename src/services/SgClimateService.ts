@@ -1,40 +1,5 @@
 const participantSessionList: Session[] = [
   {
-    id: 19,
-    date: "09 October 2023 (Monday evening)",
-    sessionType: "Climate Fresk",
-    host: "Babilou Family - Alexandra Rd",
-    url: "https://association.climatefresk.org/training_sessions/7fca2fc7-8831-435b-ba56-d43b83c33fae/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-  {
-    id: 20,
-    date: "14 October 2023 (Saturday afternoon)",
-    sessionType: "Climate Fresk",
-    host: "Palo IT Offices - Beach Rd",
-    url: "https://association.climatefresk.org/training_sessions/3720ac50-c2cb-4180-9b3f-001803910a18/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
-  {
-    id: 21,
-    date: "17 October 2023 (Tuesday evening)",
-    sessionType: "Digital Collage",
-    host: "Viseo - Cecil Street",
-    url: "https://www.eventbrite.sg/e/the-digital-collage-workshop-singapore-tickets-396945513717?aff=oddtdtcreator",
-  },
-  {
-    id: 22,
-    date: "17 October 2023 (Tuesday evening)",
-    sessionType: "2tonnes",
-    host: "Chemistry Office - Bugis",
-    url: "https://www.eventbrite.sg/e/2tonnes-workshop-chemistry-singapore-tickets-559180803837",
-  },
-  {
-    id: 23,
-    date: "24 October 2023 (Tuesday evening)",
-    sessionType: "Digital Collage",
-    host: "Online",
-    url: "https://www.billetweb.fr/asia-pacific-digital-collage",
-  },
-  {
     id: 24,
     date: "30 October 2023 (Tuesday evening)",
     sessionType: "Climate Fresk",
