@@ -1,43 +1,51 @@
 const participantSessionList: Session[] = [
-  {
-    id: 24,
-    date: "30 October 2023 (Tuesday evening)",
-    sessionType: "Climate Fresk",
-    host: "Online",
-    url: "https://association.climatefresk.org/training_sessions/98551a7e-52eb-4627-a790-875a41d0ef2d/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
    {
-    id: 25,
+    id: 2,
     date: "06 November 2023 (Monday evening)",
     sessionType: "Climate Fresk",
     host: "Babilou Family - Alexandra Rd",
     url: "https://association.climatefresk.org/training_sessions/a4ba3683-bf51-463e-81f1-62062a4b0be1/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
    {
-    id: 26,
+    id: 3,
     date: "07 November 2023 (Tuesday evening)",
     sessionType: "Biodiversity Collage",
     host: "L'Oréal Offices - One Raffles Quay",
     url: "https://www.eventbrite.com/e/biodiversity-collage-loreal-singapore-tickets-658117395847?aff=oddtdtcreator",
   },
-];
-
-const instructorSessionList: Session[] = [
-  
+  {
+    id: 4,
+    date: "15 November 2023",
+    sessionType: "COP28 - Climate Fresk",
+    host: "WWF",
+    url: "https://association.climatefresk.org/session_invitations/fdc4ef26-64cd-42fb-8f2e-b36e855c7653",
+  },
    {
-    id: 30,
-    date: "16 October 2023 (Monday evening)",
-    sessionType: "Climate Fresk Training",
-    host: "Genius Central - Telok Ayer",
-    url: "https://association.climatefresk.org/training_sessions/aa0111ba-f588-4493-a497-b6ac7c7d403b/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+    id: 5,
+    date: "18 November 2023",
+    sessionType: "COP28 - Climate Fresk for Kids",
+    host: "Accueil Singapour",
+    url: "https://association.climatefresk.org/training_sessions/1d806844-86f3-451e-9de3-6fcfe113b6e9/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
   {
-    id: 31,
-    date: "23 October 2023 (Monday evening)",
-    sessionType: "Climate Fresk Training",
-    host: "Online",
-    url: "https://association.climatefresk.org/training_sessions/4eb699df-26b1-4cf9-abf4-a6ed96a1e22e/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+    id: 6,
+    date: "18 November 2023",
+    sessionType: "COP28 - Climate Fresk, 2 Tonnes, Climate Fresk for kids, Biodiversity Collage",
+    host: "CIVIC",
+    url: "https://www.eventbrite.sg/e/climate-marathon-to-celebrate-cop28-tickets-749866038507?aff=oddtdtcreator",
   },
+  {
+    id: 7,
+    date: "18 November 2023",
+    sessionType: "COP28 - Climate Fresk, 2 Tonnes, Climate Fresk for kids, Biodiversity Collage",
+    host: "Palo IT",
+    url: "https://www.eventbrite.sg/e/climate-marathon-to-celebrate-cop28-tickets-749811274707?aff=oddtdtcreator",
+  }
+];
+
+
+
+const instructorSessionList: Session[] = [
   {
     id: 29,
     date: "06 November 2023 (Monday evening)",
