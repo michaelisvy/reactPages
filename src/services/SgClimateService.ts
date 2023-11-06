@@ -13,13 +13,6 @@ const participantSessionList: Session[] = [
     host: "L'Oréal Offices - One Raffles Quay",
     url: "https://www.eventbrite.com/e/biodiversity-collage-loreal-singapore-tickets-658117395847?aff=oddtdtcreator",
   },
-  {
-    id: 4,
-    date: "15 November 2023",
-    sessionType: "COP28 - Climate Fresk",
-    host: "WWF",
-    url: "https://association.climatefresk.org/session_invitations/fdc4ef26-64cd-42fb-8f2e-b36e855c7653",
-  },
    {
     id: 5,
     date: "18 November 2023",
