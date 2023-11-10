@@ -75,28 +75,28 @@ const participantSessionList: Session[] = [
 
 const instructorSessionList: Session[] = [
   {
-    id: 32,
+    id: 31,
     date: "13 November 2023 - Monday evening",
     sessionType: "Climate Fresk Training",
     host: "Genius Central - Telok Ayer",
     url: "https://association.climatefresk.org/training_sessions/6b19a5af-2f34-4ebe-81b3-2413ec1613c8/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
    {
-    id: 33,
+    id: 32,
     date: "15 November 2023 - Wednesday evening",
     sessionType: "Digital Collage Training",
     host: "Online",
     url: "https://www.billetweb.fr/training-asia-pacific-digital-collage",
   },
     {
-    id: 32,
+    id: 33,
     date: "29 November 2023 - Wednesday evening",
     sessionType: "Digital Collage Training",
     host: "Zenika offices - Bendemeer",
     url: "https://www.billetweb.fr/training-asia-pacific-digital-collage",
   },
     {
-    id: 32,
+    id: 34,
     date: "11 December 2023 - Monday evening",
     sessionType: "Climate Fresk Training",
     host: "Genius Central - Telok Ayer",
