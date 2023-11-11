@@ -19,49 +19,49 @@ const participantSessionList: Session[] = [
     sessionType: "COP28 Climate Marathon - Climate Fresk for Adults & Kids, 2 Tonnes, Biodiversity Collage, Digital Collage",
     host: "Palo IT",
     url: "https://www.eventbrite.sg/e/climate-marathon-to-celebrate-cop28-tickets-749811274707?aff=oddtdtcreator",
-  }
+  },
    {
     id: 4,
     date: "25 November 2023 - Saturday afternoon",
     sessionType: "COP28 Climate Marathon - Climate Fresk for Adults & Kids, 2 Tonnes, Biodiversity Collage, Digital Collage",
     host: "National Volunteering and Philanthropy Centre",
     url: "https://www.eventbrite.sg/e/climate-marathon-to-celebrate-cop28-tickets-750258010907?aff=oddtdtcreator",
-  }
+  },
 {
     id: 5,
     date: "28 November 2023 - Tuesday evening",
     sessionType: "COP28 Climate Fresk with Panel",
     host: "Singapore Sustainability Academy - CDL",
     url: "https://association.climatefresk.org/training_sessions/b0d06fbe-84fb-4a17-8f1b-12eb2a5a557b/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  }
+  },
 {
     id: 6,
     date: "04 December 2023 - Monday evening",
     sessionType: "Climate Fresk",
     host: "Babilou Family - Alexandra Road",
     url: "https://association.climatefresk.org/training_sessions/bd3879fb-138f-48d9-a56e-aebb7dc7517f/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  }
+  },
 {
     id: 7,
     date: "05 December 2023 - Tuesday evening",
     sessionType: "Biodiversity Collage",
     host: "L'Oréal offices - Raffles Quay",
     url: "https://www.eventbrite.com/e/biodiversity-collage-loreal-singapore-tickets-658117395847",
-  }
+  },
 {
     id: 8,
     date: "05 December & 08 December 2023",
     sessionType: "COP28 Climate Marathon - Climate Fresk & Biodiversity Collage",
     host: "NUS Campus",
     url: "https://www.eventbrite.sg/e/climate-awareness-workshops-to-celebrate-cop28-tickets-755279530407?aff=oddtdtcreator",
-  }
+  },
 {
     id: 9,
     date: "11 December 2023 - Monday evening",
     sessionType: "Digital Collage",
     host: "Viseo offices - Cecil St",
     url: "https://www.eventbrite.sg/e/the-digital-collage-workshop-singapore-tickets-396945513717?aff=oddtdtcreator",
-  }
+  },
 {
     id: 10,
     date: "18 December 2023 - Monday evening",
