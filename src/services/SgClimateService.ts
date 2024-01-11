@@ -1,6 +1,6 @@
 const participantSessionList: Session[] = [
    {
-    id: 1,
+    id: 3,
     date: "20 January 2024 - Saturday afternoon",
     sessionType: "Climate Fresk",
     host: "Palo IT - Beach Road",
@@ -14,8 +14,8 @@ const participantSessionList: Session[] = [
     url: "https://www.eventbrite.sg/e/2tonnes-world-in-singapore-palo-it-office-singapore-english-tickets-782041857247",
   },
     {
-    id: 3,
-    date: "23 January 2024 - Tuesday evening",
+    id: 1,
+    date: "16 January 2024 - Tuesday evening",
     sessionType: "Digital Collage",
     host: "Viseo offices - Cecil Street",
     url: "https://www.billetweb.fr/asia-pacific-digital-collage",
