@@ -17,7 +17,7 @@ export const Facilitating = () => {
     <>
       <div id="description">
         <h2>Becoming a facilitator</h2>
-        Singapore has a growing community of <b>200+ facilitators</b>. Most of
+        Singapore has a growing community of <b>320+ facilitators</b>. Most of
         them volunteer on their personal time, and a few of them are
         Professional Climate Fresk facilitators. The Climate Fresk organisation
         offers a nice progression path based on color belts:
