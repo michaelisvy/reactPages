@@ -127,7 +127,8 @@ const instructorSessionList: Session[] = [
     sessionType: "Climate Fresk Training",
     host: "Online",
     url: "https://association.climatefresk.org/training_sessions/66389a24-b1e8-4f4a-a39d-760e483b5e5b/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  {
+   },
+   {
     id: 36,
     date: "15 April 2024 - Monday evening",
     sessionType: "Climate Fresk Training",
