@@ -41,20 +41,20 @@ const participantSessionList: Session[] = [
     host: "Crane",
     url: "https://association.climatefresk.org/training_sessions/9181564a-91e4-49dd-86c7-e5bb86d1c248/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
-   {
-    id: 7,
-    date: "01 April 2024 - Monday evening",
-    sessionType: "Climate Fresk",
-    host: "Babilou Family - Alexandra Road",
-    url: "https://association.climatefresk.org/training_sessions/1d2225ea-07d3-4c03-bf3a-53ca3154c79d/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-  },
   {
-    id: 8,
+    id: 7,
     date: "06 April 2024 - Saturday morning",
     sessionType: "Climate Fresk",
     host: "Ismaili Civic",
     url: "https://www.eventbrite.sg/e/climate-fresk-2tonnes-digital-collage-workshops-at-civic-singapore-tickets-849861036237",
     },
+    {
+    id: 8,
+    date: "08 April 2024 - Monday evening",
+    sessionType: "Climate Fresk",
+    host: "Babilou Family - Alexandra Road",
+    url: "https://association.climatefresk.org/training_sessions/1d2225ea-07d3-4c03-bf3a-53ca3154c79d/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+  },
   {
     id: 9,
     date: "06 April 2024 - Saturday morning",
