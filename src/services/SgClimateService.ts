@@ -128,26 +128,54 @@ const participantSessionList: Session[] = [
 ];
 
 const instructorSessionList: Session[] = [
-  {
-   id: 34,
-   date: "24 May 2024 - Friday evening",
-   sessionType: "Digital Collage Training",
-   host: "Online",
-   url: "https://www.billetweb.fr/training-asia-pacific-digital-collage",
- },
-  {
-   id: 35,
-   date: "27 May 2024 - Monday evening",
-   sessionType: "Digital Collage Training",
-   host: "Zenika offices - Bendemeer",
-   url: "https://www.billetweb.fr/training-asia-pacific-digital-collage",
- },
-  {
-   id: 36,
-   date: "10 June 2024 - Monday evening",
+   {
+   id: 31,
+   date: "15 July 2024 - Monday evening",
    sessionType: "Climate Fresk Training",
    host: "Genius Central - Telok Ayer",
-   url: "https://association.climatefresk.org/training_sessions/19e62329-adcb-4769-8320-16c4f5482345/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+   url: "https://association.climatefresk.org/training_sessions/6fddeaa5-125f-480a-a7dc-cd1c0fb756c0/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+ },
+   {
+   id: 31,
+   date: "22 July 2024 - Monday evening",
+   sessionType: "Digital Collage Training",
+   host: "Zenika - BS Bendemeer Centre",
+   url: "billetweb.fr/training-asia-pacific-digital-collage",
+ },
+  {
+   id: 32,
+   date: "12 August 2024 - Monday evening",
+   sessionType: "Climate Fresk Training",
+   host: "Genius Central - Telok Ayer",
+   url: "https://association.climatefresk.org/training_sessions/0bd4cd14-e3f6-47d2-83b1-b2c38b9669dd/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+ },
+  {
+   id: 33,
+   date: "09 September 2024 - Monday evening",
+   sessionType: "Climate Fresk Training",
+   host: "Genius Central - Telok Ayer",
+   url: "https://association.climatefresk.org/training_sessions/bb1dcc5a-459d-461f-978a-994318986e53/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+ },
+ {
+   id: 34,
+   date: "14 October 2024 - Monday evening",
+   sessionType: "Climate Fresk Training",
+   host: "Genius Central - Telok Ayer",
+   url: "https://association.climatefresk.org/training_sessions/f4405351-2ed8-4fe4-8cd8-1dd675a28bd2/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+ },
+   {
+   id: 35,
+   date: "11 November 2024 - Monday evening",
+   sessionType: "Climate Fresk Training",
+   host: "Genius Central - Telok Ayer",
+   url: "https://association.climatefresk.org/training_sessions/f4405351-2ed8-4fe4-8cd8-1dd675a28bd2/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+ },
+   {
+   id: 36,
+   date: "09 December 2024 - Monday evening",
+   sessionType: "Climate Fresk Training",
+   host: "Genius Central - Telok Ayer",
+   url: "https://association.climatefresk.org/training_sessions/5dbee7ca-af1e-4c82-8bb6-a6495b226503/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
  },
   
 ]
