@@ -22,17 +22,10 @@ const participantSessionList: Session[] = [
    },
   {
    id: 4,
-   date: "25 June 2024 - Thursday evening",
+   date: "27 June 2024 - Thursday evening",
    sessionType: "Biodiversity Collage sponsored by MSE",
    host: "Vidacity - Pasir Ris",
    url: "https://www.eventbrite.sg/e/biodiversity-collage-fireside-chat-with-rachael-goh-vidacity-tickets-883193043167?aff=oddtdtcreator",
-   },
-   {
-   id: 5,
-   date: "27 June 2024 - Wednesday evening",
-   sessionType: "Biodiversity Collage",
-   host: "OUE Downtown Crane",
-   url: "https://www.eventbrite.sg/e/biodiversity-collage-crane-tickets-819928978647?aff=oddtdtcreator",
    },
    {
    id: 6,
