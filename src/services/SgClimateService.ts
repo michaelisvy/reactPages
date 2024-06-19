@@ -28,6 +28,13 @@ const participantSessionList: Session[] = [
    url: "https://www.eventbrite.sg/e/biodiversity-collage-fireside-chat-with-rachael-goh-vidacity-tickets-883193043167?aff=oddtdtcreator",
    },
    {
+   id: 5,
+   date: "28 June 2024 - Friday evening",
+   sessionType: "Climate Fresk",
+   host: "OUE Downtown Crane",
+   url: "https://association.climatefresk.org/training_sessions/290a1e4c-dafa-4f45-9880-4229986faccd/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+   },
+   {
    id: 6,
    date: "01 July 2024 - Monday evening",
    sessionType: "Climate Fresk",
