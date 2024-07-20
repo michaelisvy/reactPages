@@ -103,12 +103,14 @@ const participantSessionList: Session[] = [
    sessionType: "Digital Collage",
    host: "Viseo offices - Cecil Street",
    url: "https://www.billetweb.fr/asia-pacific-digital-collage",
+  },
   {
    id: 16,
    date: "03 December 2024 - Tuesday evening",
    sessionType: "Digital Collage",
    host: "Viseo offices - Cecil Street",
    url: "https://www.billetweb.fr/asia-pacific-digital-collage",
+   },
   {
    id: 17,
    date: "09 December 2024 - Monday evening",
@@ -168,6 +170,7 @@ const instructorSessionList: Session[] = [
    host: "Genius Central - Telok Ayer",
    url: "https://association.climatefresk.org/training_sessions/f4405351-2ed8-4fe4-8cd8-1dd675a28bd2/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
  },
+ {  
    id: 37,
    date: "07 October 2024 - Monday evening",
    sessionType: "Digital Collage Training",
