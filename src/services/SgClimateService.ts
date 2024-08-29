@@ -32,7 +32,7 @@ const participantSessionList: Session[] = [
    date: "07 September 2024 - Saturday afternoon",
    sessionType: "Conscious Evolution Collage",
    host: "Hong Leong Building - Raffles Quay",
-   url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-tickets-862589377047?aff=oddtdtcreator",
+   url: "https://www.eventbrite.sg/e/conscious-evolution-collage-tickets-998286400497?aff=oddtdtcreator",
    },
     {
    id: 6,
