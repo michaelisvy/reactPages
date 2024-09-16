@@ -1,33 +1,5 @@
 const participantSessionList: Session[] = [
   {
-   id: 1,
-   date: "09 September 2024 - Monday evening",
-   sessionType: "Climate Change Adaptation Workshop",
-   host: "Online",
-   url: "https://www.eventbrite.sg/e/conscious-evolution-collage-tickets-998286400497?aff=oddtdtcreator",
-   },
-    {
-   id: 2,
-   date: "10 September 2024 - Tuesday evening",
-   sessionType: "Digital Collage",
-   host: "Viseo offices - Cecil Street",
-   url: "https://www.billetweb.fr/asia-pacific-digital-collage",
-   },
-  {
-   id: 3,
-   date: "14 September 2024 - Saturday afternoon",
-   sessionType: "Climate Marathon - Multi Fresk event",
-   host: "Palo IT - Beach road",
-   url: "https://www.eventbrite.com/e/multi-fresk-in-september-tickets-975370458297",
-   },
-  {
-   id: 4,
-   date: "14 September 2024 - Saturday afternoon",
-   sessionType: "Conscious Evolution Collage",
-   host: "Hong Leong Building - Raffles Quay",
-   url: "https://www.eventbrite.sg/e/conscious-evolution-collage-tickets-998286400497?aff=oddtdtcreator",
-   },
-   {
    id: 5,
    date: "21 September 2024 - Saturday afternoon",
    sessionType: "Climate Fresk",
@@ -177,50 +149,42 @@ const participantSessionList: Session[] = [
 ];
 
 const instructorSessionList: Session[] = [
-   {
-   id: 32,
-   date: "09 September 2024 - Monday evening",
-   sessionType: "Climate Fresk Training",
-   host: "Genius Central - Telok Ayer",
-   url: "https://association.climatefresk.org/training_sessions/bb1dcc5a-459d-461f-978a-994318986e53/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
- },
- {
-   id: 33,
-   date: "14 October 2024 - Monday evening",
-   sessionType: "Climate Fresk Training",
-   host: "Genius Central - Telok Ayer",
-   url: "https://association.climatefresk.org/training_sessions/f4405351-2ed8-4fe4-8cd8-1dd675a28bd2/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
- },
- {  
-   id: 34,
+   { 
+   id: 31,
    date: "07 October 2024 - Monday evening",
    sessionType: "Digital Collage Training",
    host: "Zenika - BS Bendemeer Centre",
-   url: "billetweb.fr/training-asia-pacific-digital-collage",
+   url: "https://www.billetweb.fr/training-asia-pacific-digital-collage",
  },
    {
-   id: 35,
+   id: 32,
    date: "08 October 2024 - Tuesday evening",
    sessionType: "Biodiversity Collage Training",
    host: "The Hive Carpenter - Carpenter Street",
    url: "https://www.eventbrite.com/e/biodiversity-collage-training-to-become-facilitator-tickets-943246484627?aff=ebdsoporgprofile",
  },
+  id: 33,
+   date: "14 October 2024 - Monday evening",
+   sessionType: "Climate Fresk Training",
+   host: "Genius Central - Telok Ayer",
+   url: "https://association.climatefresk.org/training_sessions/f4405351-2ed8-4fe4-8cd8-1dd675a28bd2/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+ },
   {  
-   id: 36,
+   id: 34,
    date: "23 October 2024 - all day",
    sessionType: "Adaptation to Climate Change Training",
    host: "Online",
    url: "Reach out to thibaut@thetransmutationprinciple.com",
  },
    {
-   id: 37,
+   id: 35,
    date: "11 November 2024 - Monday evening",
    sessionType: "Climate Fresk Training",
    host: "Genius Central - Telok Ayer",
    url: "https://association.climatefresk.org/training_sessions/f4405351-2ed8-4fe4-8cd8-1dd675a28bd2/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
  },
    {
-   id: 38,
+   id: 36,
    date: "09 December 2024 - Monday evening",
    sessionType: "Climate Fresk Training",
    host: "Genius Central - Telok Ayer",
