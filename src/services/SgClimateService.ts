@@ -1,19 +1,5 @@
 const participantSessionList: Session[] = [
   {
-   id: 4,
-   date: "21 September 2024 - Saturday afternoon",
-   sessionType: "Climate Fresk",
-   host: "Palo IT - Beach road",
-   url: "https://association.climatefresk.org/training_sessions/173fe9c6-e56b-487b-bd0f-900587068764/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-   },
-  {
-   id: 5,
-   date: "23 September 2024 - Monday evening",
-   sessionType: "Plastic Collage",
-   host: "Palo IT - Beach road",
-   url: "https://www.eventbrite.hk/e/plastic-collage-palo-it-tickets-896435983157?aff=ebdsshcopyurl&utm-source=cp&utm-term=listing&utm-campaign=social&utm-medium=discovery&utm-content=attendeeshare",
-   },
-   {
    id: 6,
    date: "01 October 2024 - Wednesday evening",
    sessionType: "Biodiversity Collage",
