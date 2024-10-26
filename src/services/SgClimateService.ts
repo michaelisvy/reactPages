@@ -1,12 +1,11 @@
 const participantSessionList: Session[] = [
   {
-    {
    id: 14,
    date: "04 November 2024 - Monday evening",
    sessionType: "Climate Fresk",
    host: "Babilou offices - Alexandra Road",
    url: "https://association.climatefresk.org/training_sessions/4e17d74b-36a7-4adc-a850-6baac5cabb88/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-   },
+  },
   {
    id: 15,
    date: "04 November 2024 - Monday evening",
@@ -93,22 +92,21 @@ const instructorSessionList: Session[] = [
    sessionType: "2tonnes Facilitation Training",
    host: "Dan's place - Faber Crest",
    url: "https://www.eventbrite.fr/e/2tonnes-world-version-training-in-singapore-in-english-tickets-1054668524949",
- },
-   {
+  },
+  {
    id: 35,
    date: "11 November 2024 - Monday evening",
    sessionType: "Climate Fresk Training",
    host: "Genius Central - Telok Ayer",
    url: "https://association.climatefresk.org/training_sessions/f4405351-2ed8-4fe4-8cd8-1dd675a28bd2/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
- },
-   {
+  },
+  {
    id: 36,
    date: "09 December 2024 - Monday evening",
    sessionType: "Climate Fresk Training",
    host: "Genius Central - Telok Ayer",
    url: "https://association.climatefresk.org/training_sessions/5dbee7ca-af1e-4c82-8bb6-a6495b226503/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
- },
-  
+  }
 ]
 
 export function getParticipantSessionList() {
