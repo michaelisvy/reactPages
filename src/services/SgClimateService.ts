@@ -1,60 +1,5 @@
 const participantSessionList: Session[] = [
   {
-   id: 6,
-   date: "01 October 2024 - Wednesday evening",
-   sessionType: "Biodiversity Collage",
-   host: "Amoy Street - Finergreen office",
-   url: "https://www.eventbrite.sg/e/biodiversity-collage-crane-tickets-819928978647?aff=oddtdtcreator",
-   },
-   {
-   id: 7,
-   date: "02 October 2024 - Wednesday evening",
-   sessionType: "2 Tonnes",
-   host: "Chemistry offices - Jalan Pinang",
-   url: "https://www.eventbrite.sg/e/2tonnes-workshop-chemistry-singapore-tickets-936348151527",
-   },
-   {
-   id: 8,
-   date: "07 October 2024 - Monday evening",
-   sessionType: "Climate Fresk",
-   host: "Babilou offices - Alexandra Road",
-   url: "https://association.climatefresk.org/training_sessions/63916100-aa13-4dba-ae30-9fb305028e41/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-   },
-   {
-   id: 9,
-   date: "07 October 2024 - Monday evening",
-   sessionType: "Climate Change Adaptation Workshop",
-   host: "The Hive - Carpenter Street",
-   url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-tickets-862589377047?aff=oddtdtcreator",
-   },
-  {
-   id: 10,
-   date: "09 October 2024 - Wednesday afternoon",
-   sessionType: "Climate Fresk - Rock for Good Festival",
-   host: "The Blackbird - Gillman Barracks",
-   url: "https://www.eventbrite.com/e/climate-fresk-x-rock-for-good-the-blackbird-tickets-975825529427",
-   },
-  {
-   id: 11,
-   date: "10 October 2024 - Thursday evening",
-   sessionType: "Mobility Collage",
-   host: "The Hive - Carpenter Street",
-   url: "https://www.eventbrite.com/e/mobility-collage-public-workshop-singapore-tickets-991488407517",
-   },
-   {
-   id: 12,
-   date: "14 October 2024 - Monday evening",
-   sessionType: "Climate Change Adaptation Workshop",
-   host: "Online",
-   url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-online-tickets-862593790247",
-   },
-  {
-   id: 13,
-   date: "16 October 2024 - Wednesday evening",
-   sessionType: "World Food Day! Multi Fresk event",
-   host: "Palo IT offices - Beach Road",
-   url: "https://www.eventbrite.sg/e/world-food-day-multi-fresk-workshop-tickets-975370458297",
-   },
     {
    id: 14,
    date: "04 November 2024 - Monday evening",
@@ -142,32 +87,12 @@ const participantSessionList: Session[] = [
 ];
 
 const instructorSessionList: Session[] = [
-   { 
-   id: 31,
-   date: "07 October 2024 - Monday evening",
-   sessionType: "Digital Collage Training",
-   host: "Zenika - BS Bendemeer Centre",
-   url: "https://www.billetweb.fr/training-asia-pacific-digital-collage",
- },
-   {
-   id: 32,
-   date: "08 October 2024 - Tuesday evening",
-   sessionType: "Biodiversity Collage Training",
-   host: "The Hive Carpenter - Carpenter Street",
-   url: "https://www.eventbrite.com/e/biodiversity-collage-training-to-become-facilitator-tickets-943246484627?aff=ebdsoporgprofile",
- },
-  id: 33,
-   date: "14 October 2024 - Monday evening",
-   sessionType: "Climate Fresk Training",
-   host: "Genius Central - Telok Ayer",
-   url: "https://association.climatefresk.org/training_sessions/f4405351-2ed8-4fe4-8cd8-1dd675a28bd2/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
- },
   {  
    id: 34,
-   date: "23 October 2024 - all day",
-   sessionType: "Adaptation to Climate Change Training",
-   host: "Online",
-   url: "Reach out to thibaut@thetransmutationprinciple.com",
+   date: "9 November 2024 - 2PM",
+   sessionType: "2tonnes Facilitation Training",
+   host: "Dan's place - Faber Crest",
+   url: "https://www.eventbrite.fr/e/2tonnes-world-version-training-in-singapore-in-english-tickets-1054668524949",
  },
    {
    id: 35,
