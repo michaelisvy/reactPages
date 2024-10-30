@@ -1,19 +1,26 @@
 const participantSessionList: Session[] = [
   {
-   id: 14,
+   id: 13,
    date: "04 November 2024 - Monday evening",
    sessionType: "Climate Fresk",
    host: "Babilou offices - Alexandra Road",
    url: "https://association.climatefresk.org/training_sessions/4e17d74b-36a7-4adc-a850-6baac5cabb88/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
   },
   {
-   id: 15,
+   id: 14,
    date: "04 November 2024 - Monday evening",
    sessionType: "Climate Change Adaptation Workshop",
    host: "The Hive - Carpenter Street",
    url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-tickets-862589377047?aff=oddtdtcreator",
    },
-   {
+  {
+   id: 15,
+   date: "05 November 2024 - Tuesday evening",
+   sessionType: "Digital Collage",
+   host: "Viseo offices - Cecil Street",
+   url: "https://www.billetweb.fr/asia-pacific-digital-collage",
+   },
+  {
    id: 16,
    date: "06 November 2024 - Wednesday evening",
    sessionType: "2 Tonnes",
@@ -41,13 +48,13 @@ const participantSessionList: Session[] = [
    host: "Online",
    url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-online-tickets-862593790247",
    },
-  {
+   {
    id: 20,
-   date: "05 November 2024 - Tuesday evening",
-   sessionType: "Digital Collage",
-   host: "Viseo offices - Cecil Street",
-   url: "https://www.billetweb.fr/asia-pacific-digital-collage",
-  },
+   date: "16 November 2024 - Saturday afternoon",
+   sessionType: "Climate Fresk",
+   host: "Palo IT Office - 11 Beach Road",
+   url: "https://association.climatefresk.org/training_sessions/e2bd6912-ae2e-44fc-82d0-705fd2b0d309/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
+   },
   {
    id: 21,
    date: "03 December 2024 - Tuesday evening",
