@@ -27,7 +27,7 @@ export const Facilitating = () => {
               <TableHead>
                 <TableRow>
                   <TableCell>White Belt</TableCell>
-                  <TableCell>Yello belt</TableCell>
+                  <TableCell>Yellow belt</TableCell>
                   <TableCell>Orange Belt</TableCell>
                   <TableCell>Green Belt</TableCell>
                   <TableCell>Blue Belt</TableCell>
