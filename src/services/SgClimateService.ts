@@ -98,7 +98,7 @@ const participantSessionList: Session[] = [
    url: "https://www.eventbrite.com/e/biodiversity-collage-jalan-pinang-tickets-819928978647?aff=oddtdtcreator",
    },
   {
-   id: 15cette manouche ,
+   id: 15,
    date: "13 May 2025 - Tuesday evening",
    sessionType: "Biodiversity Collage",
    host: "Chemistry Offices - Jalan Pinang",
