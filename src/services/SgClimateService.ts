@@ -1,41 +1,6 @@
 const participantSessionList: Session[] = [
   {
    id: 1,
-   date: "13 January 2025 - Monday evening",
-   sessionType: "Climate Change Adaptation Workshop",
-   host: "The Hive Carpenter - L2",
-   url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-online-tickets-862593790247",
-   },
-  {
-   id: 2,
-   date: "14 January 2025 - Tuesday evening",
-   sessionType: "Climate Change Adaptation Workshop",
-   host: "Online",
-   url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-online-tickets-862593790247",
-   },
-  {
-   id: 3,
-   date: "14 January 2025 - Tuesday evening",
-   sessionType: "Conscious Evolution Collage",
-   host: "EcoChapter quarters",
-   url: "https://docs.google.com/forms/d/1ObBnxtEt8Wc432u0LDaxaJn36dbPb10MKkTzT-es2s8/edit",
-   },
-  {
-   id: 4,
-   date: "15 January 2025 - Wednesday evening",
-   sessionType: "Circular Economy Collage",
-   host: "CEVA Logistics Office - Havelock Road",
-   url: "https://www.eventbrite.sg/e/circular-economy-collage-singapore-tickets-1052323336427?aff=oddtdtcreator",
-   },
-  {
-   id: 5,
-   date: "16 January 2025 - Thursday evening",
-   sessionType: "Circular Economy Collage",
-   host: "EcoChapter quarters",
-   url: "https://docs.google.com/forms/d/1ObBnxtEt8Wc432u0LDaxaJn36dbPb10MKkTzT-es2s8/edit",
-   },
-  {
-   id: 6,
    date: "21 January 2025 - Tuesday evening",
    sessionType: "Biodiversity Collage & Animal Welfare",
    host: "Palo IT Offices - Beach Road",
@@ -107,12 +72,12 @@ const participantSessionList: Session[] = [
 ];
 
 const instructorSessionList: Session[] = [
-  {  
-   id: 32,
-   date: "09 January 2024 - Thursday evening",
-   sessionType: "Biodiversity Collage Training",
-   host: "Online",
-   url: "https://www.billetweb.fr/biodiversity-collage-training-online",
+  { 
+   id: 12,
+   date: "05 February 2025 - Wednesday evening",
+   sessionType: "Climate Fresk Facilitation Training",
+   host: "The Hive Carpenter - L2",
+   url: "https://association.climatefresk.org/training_sessions/cae177f0-7c4f-4ab9-be8d-d8d4e9560af7/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
    },
   {  
    id: 33,
