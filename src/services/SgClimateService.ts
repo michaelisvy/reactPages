@@ -73,35 +73,35 @@ const participantSessionList: Session[] = [
 
 const instructorSessionList: Session[] = [
   { 
-   id: 12,
+   id: 31,
    date: "05 February 2025 - Wednesday evening",
    sessionType: "Climate Fresk Facilitation Training",
    host: "The Hive Carpenter - L2",
    url: "https://association.climatefresk.org/training_sessions/cae177f0-7c4f-4ab9-be8d-d8d4e9560af7/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
    },
   {  
-   id: 33,
+   id: 32,
    date: "13 March 2025 - Thursday evening",
    sessionType: "Biodiversity Collage Training",
    host: "The Hive Carpenter - L2",
    url: "https://www.eventbrite.sg/e/biodiversity-collage-training-to-become-facilitator-tickets-1110924377719?aff=oddtdtcreator",
   },
   {  
-   id: 34,
+   id: 33,
    date: "17 April 2025 - Thursday evening",
    sessionType: "Biodiversity Collage Training",
    host: "Online",
    url: "https://www.billetweb.fr/biodiversity-collage-training-online",
   },
 {  
-   id: 35,
+   id: 34,
    date: "07 May 2025 - Wednesday evening",
    sessionType: "Biodiversity Collage Training",
    host: "The Hive Carpenter - L2",
    url: "https://www.eventbrite.sg/e/biodiversity-collage-training-to-become-facilitator-tickets-1110924377719?aff=oddtdtcreator",
   },
   {  
-   id: 36,
+   id: 35,
    date: "17 June 2025 - Tuesday evening",
    sessionType: "Biodiversity Collage Training",
    host: "Online",
