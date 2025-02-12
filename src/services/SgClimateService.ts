@@ -1,19 +1,5 @@
 const participantSessionList: Session[] = [
   {
-   id: 1,
-   date: "11 February 2025 - Tuesday evening",
-   sessionType: "Climate Change Adaptation Workshop",
-   host: "Online",
-   url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-online-tickets-862593790247",
-   },
-  {
-   id: 2,
-   date: "11 February 2025 - Tuesday evening",
-   sessionType: "Circular Economy Collage",
-   host: "Central Singapore",
-   url: "https://www.eventbrite.sg/e/circular-economy-collage-singapore-tickets-1052323336427?aff=oddtdtcreator",
-   },
-  {
    id: 3,
    date: "13 February 2025 - Thursday evening",
    sessionType: "Climate Fresk",
@@ -78,27 +64,34 @@ const participantSessionList: Session[] = [
    },
   {
    id: 12,
+   date: "1 April 2025 - Tuesday evening",
+   sessionType: "Climate Fresk - Sustainability in my Community programme",
+   host: "Aperia Mall - Kallang Avenue",
+   url: "https://www.eventbrite.com/e/sync-series-1-community-workshop-climate-fresk-climate-change-tickets-1232613392839?aff=oddtdtcreator",
+   },
+  {
+   id: 13,
    date: "15 April 2025 - Tuesday evening",
    sessionType: "Climate Fresk",
    host: "Palo IT Offices - Beach Road",
    url: "https://association.climatefresk.org/training_sessions/1b7044d0-08fc-44c8-90d1-e70f23bb41c2/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
    },
   {
-   id: 13,
+   id: 14,
    date: "25 April 2025 - Friday afternoon",
    sessionType: "Climate Change Adaptation Workshop",
    host: "Online",
    url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-online-tickets-862593790247",
    },
   {
-   id: 14,
+   id: 15,
    date: "13 May 2025 - Tuesday evening",
    sessionType: "Biodiversity Collage",
    host: "Chemistry Offices - Jalan Pinang",
    url: "https://www.eventbrite.com/e/biodiversity-collage-jalan-pinang-tickets-819928978647?aff=oddtdtcreator",
    },
   {
-   id: 15,
+   id: 16,
    date: "22 May 2025 - Thursday evening",
    sessionType: "Biodiversity Collage - Sustainability in my Community programme",
    host: "Singapore Sustainability Academy - City Square Mall",
