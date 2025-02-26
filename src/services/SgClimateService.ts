@@ -1,34 +1,6 @@
 const participantSessionList: Session[] = [
   {
    id: 3,
-   date: "13 February 2025 - Thursday evening",
-   sessionType: "Climate Fresk",
-   host: "National Gallery (B1 Supreme Court Wing)",
-   url: "https://association.climatefresk.org/training_sessions/08403cbb-ec7a-40be-b464-a0207090aa35/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-   },
-  {
-   id: 4,
-   date: "16 February 2025 - Sunday morning",
-   sessionType: "Climate Fresk",
-   host: "Invictus @ Dempsey",
-   url: "https://association.climatefresk.org/training_sessions/995ae417-ade1-4f4d-94e5-20a4f1282dc7/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-   },
-  {
-   id: 5,
-   date: "19 February 2025 - Wednesday evening",
-   sessionType: "Climate Fresk",
-   host: "Palo IT Offices - Beach Road",
-   url: "https://association.climatefresk.org/training_sessions/0edc85de-0540-459d-86d5-9bd7fcb350a4/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-   },
-  {
-   id: 6,
-   date: "28 February 2025 - Friday afternoon",
-   sessionType: "Climate Change Adaptation Workshop",
-   host: "Online",
-   url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-online-tickets-862593790247",
-   },
-  {
-   id: 7,
    date: "03 March 2025 - Monday evening",
    sessionType: "Climate Change Adaptation Workshop",
    host: "The Hive Carpenter - L2",
@@ -84,6 +56,13 @@ const participantSessionList: Session[] = [
    url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-online-tickets-862593790247",
    },
   {
+   id: 16,
+   date: "06 May 2025 - Tuesday afternoon",
+   sessionType: "Climate Fresk - Sustainability in my Community programme",
+   host: "Singapore Sustainability Academy - City Square Mall",
+   url: "https://www.eventbrite.sg/e/sync-series-1-community-workshop-climate-fresk-climate-change-tickets-1238411605449?aff=oddtdtcreator",
+   },
+  {
    id: 15,
    date: "13 May 2025 - Tuesday evening",
    sessionType: "Biodiversity Collage",
@@ -96,6 +75,41 @@ const participantSessionList: Session[] = [
    sessionType: "Biodiversity Collage - Sustainability in my Community programme",
    host: "Singapore Sustainability Academy - City Square Mall",
    url: "https://www.eventbrite.com/e/sustainability-workshop-biodiversity-conservation-quality-of-life-tickets-1135389323029?aff=oddtdtcreator",
+   },
+  {
+   id: 16,
+   date: "21 June 2025 - Saturday morning",
+   sessionType: "Climate Fresk - Sustainability in my Community programme",
+   host: "Singapore Sustainability Academy - City Square Mall",
+   url: "https://www.eventbrite.sg/e/sync-series-1-community-workshop-climate-fresk-climate-change-tickets-1238411605449?aff=oddtdtcreator",
+   },
+  {
+   id: 16,
+   date: "25 June 2025 - Tuesday evening",
+   sessionType: "Circular Economy Collage - Sustainability in my Community programme",
+   host: "Aperia Mall",
+   url: "https://www.eventbrite.sg/e/sync-series-2-community-workshop-circular-economy-tickets-1232628016579?aff=oddtdtcreator",
+   },
+ {
+   id: 16,
+   date: "01 July 2025 - Tuesday evening",
+   sessionType: "Digital Collage - Sustainability in my Community programme",
+   host: "Singapore Sustainability Academy - City Square Mall",
+   url: "https://www.eventbrite.sg/e/sustainability-workshop-climate-impact-of-tech-digital-sustainability-tickets-1135415852379?aff=oddtdtcreator",
+   },
+  {
+   id: 16,
+   date: "08 July 2025 - Tuesday evening",
+   sessionType: "Circular Economy Collage - Sustainability in my Community programme",
+   host: "Singpore University of Social Sciences",
+   url: "https://www.eventbrite.sg/e/sync-series-2-community-workshop-circular-economy-tickets-1232628016579?aff=oddtdtcreator",
+   },
+  {
+   id: 16,
+   date: "02 September 2025 - Tuesday evening",
+   sessionType: "Climate Fresk x Social Inclusivity - Sustainability in my Community programme",
+   host: "Singapore Sustainability Academy - City Square Mall",
+   url: "https://www.eventbrite.sg/e/sustainability-workshop-climate-action-social-inclusivity-tickets-1135424929529?aff=oddtdtcreator",
    },
 ];
 
@@ -130,6 +144,13 @@ const instructorSessionList: Session[] = [
    },
   {  
    id: 37,
+   date: "10 April 2025 - Thursday afternoon",
+   sessionType: "Adaptation to Climate Change workshop Training",
+   host: "Online",
+   url: "Reach out to Thibaut@thetransmutationprinciple.com",
+   },
+  {  
+   id: 37,
    date: "17 April 2025 - Thursday evening",
    sessionType: "Biodiversity Collage Training",
    host: "Online",
@@ -148,7 +169,14 @@ const instructorSessionList: Session[] = [
    sessionType: "Biodiversity Collage Training",
    host: "Online",
    url: "https://www.billetweb.fr/biodiversity-collage-training-online",
-  }
+  },
+  {  
+   id: 37,
+   date: "22 July 2025 - Tuesday afternoon",
+   sessionType: "Adaptation to Climate Change workshop Training",
+   host: "Online",
+   url: "Reach out to Thibaut@thetransmutationprinciple.com",
+   }
 ]
 
 export function getParticipantSessionList() {
