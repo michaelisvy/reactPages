@@ -1,42 +1,7 @@
 const participantSessionList: Session[] = [
   {
    id: 1,
-   date: "11 March 2025 - Tuesday evening",
-   sessionType: "Climate Change Adaptation Workshop",
-   host: "Online",
-   url: "https://www.eventbrite.sg/e/adacc-adaptation-to-climate-change-workshops-online-tickets-862593790247",
-   },
-  {
-   id: 3,
-   date: "11 March 2025 - Tuesday evening",
-   sessionType: "Conscious Evolution Collage",
-   host: "Ang Mo Kio",
-   url: "https://docs.google.com/forms/d/1e_0kc9E0UVAqBiA2GzrWlnDIcD0yynPp68UrpBbvyyY/viewform?edit_requested=true",
-   },
-  {
-   id: 5,
-   date: "23 March 2025 - Sunday morning",
-   sessionType: "Climate Fresk",
-   host: "Invictus @ Dempsey",
-   url: "https://association.climatefresk.org/training_sessions/995ae417-ade1-4f4d-94e5-20a4f1282dc7/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-   },
-  {
-   id: 7,
-   date: "28 March 2025 - Wednesday evening",
-   sessionType: "Climate Fresk",
-   host: "Singapore Sustainability Academy - City Square Mall",
-   url: "https://association.climatefresk.org/training_sessions/46d0b2cc-f0c3-4762-b005-1b2cfee3a8da/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-   },
-  {
-   id: 9,
-   date: "1 April 2025 - Tuesday evening",
-   sessionType: "Climate Fresk - Sustainability in my Community programme",
-   host: "Aperia Mall - Kallang Avenue",
-   url: "https://www.eventbrite.com/e/sync-series-1-community-workshop-climate-fresk-climate-change-tickets-1232613392839?aff=oddtdtcreator",
-   },
-  {
-   id: 11,
-   date: "15 April 2025 - Tuesday evening",
+   date: "17 April 2025 - Thursday evening",
    sessionType: "Climate Fresk",
    host: "Palo IT Offices - Beach Road",
    url: "https://association.climatefresk.org/training_sessions/1b7044d0-08fc-44c8-90d1-e70f23bb41c2/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
@@ -103,6 +68,13 @@ const participantSessionList: Session[] = [
    sessionType: "Biodiversity Collage - Sustainability in my Community programme",
    host: "Singapore Sustainability Academy - City Square Mall",
    url: "https://www.eventbrite.com/e/sustainability-workshop-biodiversity-conservation-quality-of-life-tickets-1135389323029?aff=oddtdtcreator",
+   },
+  {
+   id: 27,
+   date: "30 May 2025 - Friday evening",
+   sessionType: "Climate Fresk",
+   host: "Singapore Sustainability Academy - City Square Mall",
+   url: "https://association.climatefresk.org/training_sessions/2b547268-ea69-4c68-809d-f57a0e3833cf/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
    },
   {
    id: 29,
