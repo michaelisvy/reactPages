@@ -114,37 +114,9 @@ const participantSessionList: Session[] = [
 ];
 
 const instructorSessionList: Session[] = [
-  {  
-   id: 44,
-   date: "13 March 2025 - Thursday evening",
-   sessionType: "Biodiversity Collage Training",
-   host: "The Hive Carpenter - L2",
-   url: "https://www.eventbrite.sg/e/biodiversity-collage-training-to-become-facilitator-tickets-1110924377719?aff=oddtdtcreator",
-   },
-  {
-   id: 45,
-   date: "28 March 2025 - Friday evening",
-   sessionType: "Climate Fresk Facilitation Training",
-   host: "Singapore Sustainability Academy - City Square Mall",
-   url: "https://association.climatefresk.org/training_sessions/cd611e65-0426-4a35-8ed6-f9fd2b9213b8/show_public?language=en&tenant_token=36bd2274d3982262c0021755&user_token=37310375-5f05-40db-817d-b3e277f56afd",
-   },
   { 
-   id: 46,
-   date: "15 April 2025 - Tuesday evening",
-   sessionType: "Climate Fresk Facilitation Training",
-   host: "Palo IT - Beach Road",
-   url: "https://association.climatefresk.org/training_sessions/de19c410-e020-4868-9c81-104fec1d8f02/show_public?language=en&tenant_token=36bd2274d3982262c0021755",
-   },
-  {  
-   id: 47,
-   date: "10 April 2025 - Thursday afternoon",
-   sessionType: "Adaptation to Climate Change workshop Training",
-   host: "Online",
-   url: "Reach out to Thibaut@thetransmutationprinciple.com",
-   },
-  {  
    id: 48,
-   date: "17 April 2025 - Thursday evening",
+   date: "24 April 2025 - Thursday evening",
    sessionType: "Biodiversity Collage Training",
    host: "Online",
    url: "https://www.billetweb.fr/biodiversity-collage-training-online",
